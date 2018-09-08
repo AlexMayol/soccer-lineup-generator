@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Premier League",
+        "teams": [
+            {
+                "name": "Manchester United",
+                "players": [
+                    {
+                        "name": "Alexis",
+                        "src": "./img/manchesterunited/Alexis.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Bailly",
+                        "src": "./img/manchesterunited/Bailly.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Blind",
+                        "src": "./img/manchesterunited/Blind.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Darmian",
+                        "src": "./img/manchesterunited/Darmian.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "De Gea",
+                        "src": "./img/manchesterunited/De gea.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Fellaini",
+                        "src": "./img/manchesterunited/Fellaini.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Herrera",
+                        "src": "./img/manchesterunited/Herrera.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Jones",
+                        "src": "./img/manchesterunited/Jones.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Lindelof",
+                        "src": "./img/manchesterunited/Lindelof.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Lukaku",
+                        "src": "./img/manchesterunited/Lukaku.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Martial",
+                        "src": "./img/manchesterunited/Martial.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Mata",
+                        "src": "./img/manchesterunited/Mata.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Matic",
+                        "src": "./img/manchesterunited/Matic.png",
+                        "profile": "https://www.google.com"
+                    }
+                ]
+            },
+            {
+                "name": "Tottenham",
+                "players": [
+                    {
+                        "name": "Aurier",
+                        "src": "./img/tottenham/Aurier.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Alli",
+                        "src": "./img/tottenham/Alli.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Lloris",
+                        "src": "./img/tottenham/Lloris.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Son",
+                        "src": "./img/tottenham/Son.png",
+                        "profile": "https://www.google.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "La Liga",
+        "teams": [
+            {
+                "name": "Betis",
+                "players": [
+                    {
+                        "name": "Alexis",
+                        "src": "./img/tottenham/Alexis.png",
+                        "profile": "https://www.google.com"
+                    },
+                    {
+                        "name": "Blind",
+                        "src": "./img/tottenham/Blind.png",
+                        "profile": "https://www.google.com"
+                    }
+                ]
+            },
+            {
+                "name": "Valencia",
+                "players": [
+             
+                ]
+            }
+        ]
+    }
+]

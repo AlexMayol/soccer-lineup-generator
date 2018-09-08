@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Hello, Google!">
+  <meta name="subject" content="just a simple exercise for fun">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="X:\Web development\Aprendizaje\Front-end\CSS\remedy\dist\remedy.css">
+  <link href="style/style.css" rel="stylesheet" type="text/css">
+  <title>Soccer lineups generator</title>
+  <noscript>
+    Enable JavaScript if you want to use this amazing app!
+  </noscript>
+  <title></title>
+</head>
+
+<body>
+  <header role="banner">
+    <h1>Soccer lineups generator</h1>    
+  </header>
+  <main id="app">
+    <label for="league">
+      Selecciona una liga
+      <select v-model="selectedLeague">
+        <option v-for="league in leagues">{{league.name}}</option>
+      </select>
+    </label>
+
+    <label v-if="selectedLeague != null" for="league">
+      Selecciona un equipo
+      <select  v-model="selectedTeam">
+        <option v-for="team in teams">{{team.name}}</option>
+      </select>
+    </label>
+
+
+
+    <label for="league">
+      Selecciona una alineación
+      <select v-model="formacionActual">
+        <option v-for="formacion in formaciones" :value="formacion">{{formacion}}</option>
+      </select>
+    </label>
+
+
+    <button @click="snapshot">Crear imagen</button>
+
+    <section class="football-grid">
+
+      <div v-if="selectedTeam != null " class="jugadores">
+        <div v-for="(i, index) in 11">
+          Jugador {{index + 1}}
+          <select v-model="selectedPlayers[index]">
+            <option v-for="(player, index) in players" :value="player">{{player.name}}</option>
+          </select>
+        </div>
+      </div>
+
+
+      <div class="field" :class="[formacionActual]">
+        <div class="player" :class="['p' + (index+1)]" v-for="(player, index) in selectedPlayers">
+          <img :src="player.src" alt="">
+          <a :href="player.profile" target="_blank"><p>{{player.name}}</p></a>          
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="code/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="code/code.js"></script>
+</body>
+
+</html>

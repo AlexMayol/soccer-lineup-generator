@@ -1,2 +1,2 @@
-# soccer-lineup-generator
-Create lineups easily with this app and export them to an image.
+# football-stars
+Crea alineaciones de equipos de fútbol y guárdalas como imágenes.

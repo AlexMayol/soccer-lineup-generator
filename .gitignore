@@ -1,0 +1,5 @@
+.cache/
+node_modules/
+dist/remedy.js
+dist/remedy.map
+code.js
